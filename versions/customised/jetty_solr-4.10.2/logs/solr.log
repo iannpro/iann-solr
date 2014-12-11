@@ -3994,3 +3994,1098 @@ INFO  - 2014-12-08 16:35:22.027; org.apache.solr.core.CachingDirectoryFactory; C
 INFO  - 2014-12-08 16:35:22.027; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data;done=false>>]
 INFO  - 2014-12-08 16:35:22.028; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data
 INFO  - 2014-12-08 16:35:22.030; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr-webapp/webapp/},/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/webapps/solr.war
+INFO  - 2014-12-09 04:57:32.052; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2014-12-09 04:57:32.093; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/contexts at interval 0
+INFO  - 2014-12-09 04:57:32.100; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/contexts/solr-jetty-context.xml
+INFO  - 2014-12-09 04:57:33.608; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2014-12-09 04:57:33.728; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2014-12-09 04:57:33.792; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2014-12-09 04:57:33.798; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2014-12-09 04:57:33.799; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2014-12-09 04:57:33.997; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/solr.xml
+INFO  - 2014-12-09 04:57:34.192; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr
+INFO  - 2014-12-09 04:57:34.225; org.apache.solr.core.CoreContainer; New CoreContainer 778771046
+INFO  - 2014-12-09 04:57:34.228; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2014-12-09 04:57:34.242; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2014-12-09 04:57:34.242; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2014-12-09 04:57:34.246; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2014-12-09 04:57:34.246; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2014-12-09 04:57:34.249; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2014-12-09 04:57:34.249; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2014-12-09 04:57:34.249; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2014-12-09 04:57:34.250; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2014-12-09 04:57:34.250; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2014-12-09 04:57:34.629; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=false
+INFO  - 2014-12-09 04:57:34.631; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2014-12-09 04:57:34.632; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2014-12-09 04:57:34.633; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2014-12-09 04:57:34.701; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr
+INFO  - 2014-12-09 04:57:34.728; org.apache.solr.core.CorePropertiesLocator; Found core iann in /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/
+INFO  - 2014-12-09 04:57:34.730; org.apache.solr.core.CorePropertiesLocator; Found core iann-sasi in /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/
+INFO  - 2014-12-09 04:57:34.731; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/
+INFO  - 2014-12-09 04:57:34.732; org.apache.solr.core.CorePropertiesLocator; Found 3 core definitions
+INFO  - 2014-12-09 04:57:34.735; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/'
+INFO  - 2014-12-09 04:57:34.751; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/'
+INFO  - 2014-12-09 04:57:34.755; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/'
+INFO  - 2014-12-09 04:57:35.348; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2014-12-09 04:57:35.351; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../contrib/extraction/lib).
+INFO  - 2014-12-09 04:57:35.350; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2014-12-09 04:57:35.354; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../contrib/extraction/lib).
+WARN  - 2014-12-09 04:57:35.357; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../dist).
+WARN  - 2014-12-09 04:57:35.363; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../contrib/clustering/lib).
+WARN  - 2014-12-09 04:57:35.364; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../dist).
+WARN  - 2014-12-09 04:57:35.364; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../contrib/langid/lib).
+WARN  - 2014-12-09 04:57:35.364; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../dist).
+WARN  - 2014-12-09 04:57:35.370; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../contrib/clustering/lib).
+WARN  - 2014-12-09 04:57:35.371; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../dist).
+WARN  - 2014-12-09 04:57:35.372; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../contrib/langid/lib).
+WARN  - 2014-12-09 04:57:35.373; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../dist).
+WARN  - 2014-12-09 04:57:35.374; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../contrib/velocity/lib).
+WARN  - 2014-12-09 04:57:35.388; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/../../../dist).
+WARN  - 2014-12-09 04:57:35.372; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../dist).
+WARN  - 2014-12-09 04:57:35.391; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../contrib/velocity/lib).
+WARN  - 2014-12-09 04:57:35.391; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/../../../dist).
+WARN  - 2014-12-09 04:57:35.391; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: /total/crap/dir/ignored (resolved as: /total/crap/dir/ignored).
+WARN  - 2014-12-09 04:57:35.393; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: /total/crap/dir/ignored (resolved as: /total/crap/dir/ignored).
+INFO  - 2014-12-09 04:57:35.415; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+WARN  - 2014-12-09 04:57:35.417; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/extraction/lib (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../contrib/extraction/lib).
+WARN  - 2014-12-09 04:57:35.420; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../dist).
+WARN  - 2014-12-09 04:57:35.421; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/clustering/lib/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../contrib/clustering/lib).
+WARN  - 2014-12-09 04:57:35.421; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../dist).
+WARN  - 2014-12-09 04:57:35.427; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/langid/lib/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../contrib/langid/lib).
+WARN  - 2014-12-09 04:57:35.428; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../dist).
+WARN  - 2014-12-09 04:57:35.429; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../contrib/velocity/lib (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../contrib/velocity/lib).
+WARN  - 2014-12-09 04:57:35.431; org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: ../../../dist/ (resolved as: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/../../../dist).
+INFO  - 2014-12-09 04:57:36.776; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.1.0
+INFO  - 2014-12-09 04:57:36.802; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.1.0
+INFO  - 2014-12-09 04:57:36.801; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2014-12-09 04:57:36.875; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.2
+INFO  - 2014-12-09 04:57:37.604; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-12-09 04:57:37.621; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-12-09 04:57:37.633; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2014-12-09 04:57:37.640; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/conf/schema.xml
+INFO  - 2014-12-09 04:57:37.643; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/conf/schema.xml
+INFO  - 2014-12-09 04:57:37.667; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf/schema.xml
+INFO  - 2014-12-09 04:57:37.833; org.apache.solr.schema.IndexSchema; [iann] Schema name=itico
+INFO  - 2014-12-09 04:57:37.889; org.apache.solr.schema.IndexSchema; [iann-sasi] Schema name=itico
+WARN  - 2014-12-09 04:57:38.232; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.DoubleField]. Please consult documentation how to replace it accordingly.
+WARN  - 2014-12-09 04:57:38.243; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.DoubleField]. Please consult documentation how to replace it accordingly.
+INFO  - 2014-12-09 04:57:38.459; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2014-12-09 04:57:38.749; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2014-12-09 04:57:38.775; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2014-12-09 04:57:38.784; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2014-12-09 04:57:38.757; org.apache.solr.schema.IndexSchema; default search field in schema is text
+INFO  - 2014-12-09 04:57:38.800; org.apache.solr.schema.IndexSchema; query parser default operator is OR
+INFO  - 2014-12-09 04:57:38.803; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2014-12-09 04:57:39.309; org.apache.solr.core.CoreContainer; Creating SolrCore 'iann' using configuration from instancedir /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/
+INFO  - 2014-12-09 04:57:39.327; org.apache.solr.core.CoreContainer; Creating SolrCore 'iann-sasi' using configuration from instancedir /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/
+INFO  - 2014-12-09 04:57:39.465; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-12-09 04:57:39.474; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-12-09 04:57:39.522; org.apache.solr.core.SolrCore; [iann-sasi] Opening new SolrCore at /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/, dataDir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/
+INFO  - 2014-12-09 04:57:39.536; org.apache.solr.core.SolrCore; [iann] Opening new SolrCore at /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/, dataDir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/
+INFO  - 2014-12-09 04:57:39.537; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2014-12-09 04:57:39.538; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2014-12-09 04:57:39.576; org.apache.solr.core.SolrCore; [iann-sasi] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2014-12-09 04:57:39.580; org.apache.solr.core.SolrCore; [iann] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2014-12-09 04:57:39.590; org.apache.solr.core.SolrCore; [iann] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2014-12-09 04:57:39.597; org.apache.solr.core.SolrCore; [iann-sasi] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2014-12-09 04:57:39.650; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data
+INFO  - 2014-12-09 04:57:39.653; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data
+INFO  - 2014-12-09 04:57:39.671; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index/
+INFO  - 2014-12-09 04:57:39.671; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index/
+INFO  - 2014-12-09 04:57:39.674; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index
+INFO  - 2014-12-09 04:57:39.678; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index
+INFO  - 2014-12-09 04:57:39.797; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2014-12-09 04:57:39.811; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2014-12-09 04:57:39.807; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2014-12-09 04:57:39.811; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2014-12-09 04:57:39.812; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2014-12-09 04:57:39.814; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2014-12-09 04:57:39.854; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2014-12-09 04:57:39.854; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2014-12-09 04:57:39.873; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2014-12-09 04:57:39.873; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2014-12-09 04:57:40.320; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-12-09 04:57:40.323; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-12-09 04:57:40.343; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.367; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.367; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.367; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.388; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.388; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.388; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.389; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.413; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.424; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.445; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2014-12-09 04:57:40.445; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.451; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.452; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.455; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2014-12-09 04:57:40.459; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2014-12-09 04:57:40.461; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.463; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+WARN  - 2014-12-09 04:57:40.471; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.490; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+WARN  - 2014-12-09 04:57:40.495; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.495; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+WARN  - 2014-12-09 04:57:40.477; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.JsonUpdateRequestHandler]. Please consult documentation how to replace it accordingly.
+WARN  - 2014-12-09 04:57:40.504; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update/json ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.505; org.apache.solr.core.RequestHandlers; created /update/json: solr.JsonUpdateRequestHandler
+WARN  - 2014-12-09 04:57:40.506; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+WARN  - 2014-12-09 04:57:40.523; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.523; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2014-12-09 04:57:40.524; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2014-12-09 04:57:40.524; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+WARN  - 2014-12-09 04:57:40.522; org.apache.solr.core.SolrResourceLoader; Solr loaded a deprecated plugin/analysis class [solr.CSVRequestHandler]. Please consult documentation how to replace it accordingly.
+WARN  - 2014-12-09 04:57:40.536; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update/csv ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:40.537; org.apache.solr.core.RequestHandlers; created /update/csv: solr.CSVRequestHandler
+INFO  - 2014-12-09 04:57:40.550; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2014-12-09 04:57:40.551; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2014-12-09 04:57:40.537; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.554; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.559; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.559; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.561; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2014-12-09 04:57:40.554; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.587; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.587; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.587; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:40.587; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2014-12-09 04:57:40.590; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2014-12-09 04:57:40.599; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2014-12-09 04:57:40.601; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2014-12-09 04:57:40.602; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2014-12-09 04:57:40.641; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2014-12-09 04:57:40.663; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2014-12-09 04:57:40.663; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.664; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.664; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.667; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.667; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.667; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.667; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.667; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.667; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.676; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.677; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.677; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.683; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.683; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.688; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.694; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2014-12-09 04:57:40.768; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.794; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.807; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.792; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.816; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.818; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.822; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.829; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.821; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.857; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.860; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.862; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.867; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:40.873; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:41.014; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2014-12-09 04:57:41.028; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-12-09 04:57:41.112; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2014-12-09 04:57:41.129; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-12-09 04:57:41.344; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-12-09 04:57:41.345; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-12-09 04:57:41.420; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@288389f7[iann-sasi] main
+INFO  - 2014-12-09 04:57:41.482; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/conf
+INFO  - 2014-12-09 04:57:41.487; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/conf}
+INFO  - 2014-12-09 04:57:41.552; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/conf
+INFO  - 2014-12-09 04:57:41.604; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1o6,generation=2166}
+INFO  - 2014-12-09 04:57:41.609; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 2166
+INFO  - 2014-12-09 04:57:41.605; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/conf
+INFO  - 2014-12-09 04:57:41.610; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2014-12-09 04:57:41.610; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2014-12-09 04:57:41.611; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2014-12-09 04:57:41.674; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2014-12-09 04:57:41.803; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2014-12-09 04:57:41.806; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/conf/elevate.xml
+INFO  - 2014-12-09 04:57:42.058; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2014-12-09 04:57:42.076; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@288389f7[iann-sasi] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-12-09 04:57:42.092; org.apache.solr.core.CoreContainer; registering core: iann-sasi
+INFO  - 2014-12-09 04:57:42.297; org.apache.solr.core.SolrCore; [iann-sasi] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=217 
+INFO  - 2014-12-09 04:57:42.291; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@6a927ee6[iann] main
+INFO  - 2014-12-09 04:57:42.301; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2014-12-09 04:57:42.301; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/conf
+INFO  - 2014-12-09 04:57:42.314; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/conf}
+INFO  - 2014-12-09 04:57:42.315; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/conf
+INFO  - 2014-12-09 04:57:42.314; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2014-12-09 04:57:42.316; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2014-12-09 04:57:42.317; org.apache.solr.core.SolrCore; [iann-sasi] Registered new searcher Searcher@288389f7[iann-sasi] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-12-09 04:57:42.317; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/conf
+INFO  - 2014-12-09 04:57:42.317; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2014-12-09 04:57:42.318; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2014-12-09 04:57:42.318; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2014-12-09 04:57:42.322; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=name,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2014-12-09 04:57:42.348; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2014-12-09 04:57:42.349; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/conf/elevate.xml
+INFO  - 2014-12-09 04:57:42.400; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2014-12-09 04:57:42.413; org.apache.solr.core.CoreContainer; registering core: iann
+INFO  - 2014-12-09 04:57:42.414; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@6a927ee6[iann] main{StandardDirectoryReader(segments_1o6:4558:nrt _1m9(4.1.0):C2504 _1ma(4.1.0):C1 _1mb(4.1.0):C1 _1mc(4.1.0):C1 _1md(4.1.0):C1 _1me(4.1.0):C1 _1mf(4.1.0):C1 _1mg(4.1.0):C1 _1mh(4.1.0):C1 _1mi(4.1.0):C1)}
+INFO  - 2014-12-09 04:57:42.481; org.apache.solr.core.SolrCore; [iann] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=405 status=0 QTime=67 
+INFO  - 2014-12-09 04:57:42.542; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2014-12-09 04:57:42.542; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2014-12-09 04:57:42.542; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2014-12-09 04:57:42.543; org.apache.solr.core.SolrCore; [iann] Registered new searcher Searcher@6a927ee6[iann] main{StandardDirectoryReader(segments_1o6:4558:nrt _1m9(4.1.0):C2504 _1ma(4.1.0):C1 _1mb(4.1.0):C1 _1mc(4.1.0):C1 _1md(4.1.0):C1 _1me(4.1.0):C1 _1mf(4.1.0):C1 _1mg(4.1.0):C1 _1mh(4.1.0):C1 _1mi(4.1.0):C1)}
+INFO  - 2014-12-09 04:57:42.608; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2014-12-09 04:57:42.612; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2014-12-09 04:57:42.613; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2014-12-09 04:57:42.700; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2014-12-09 04:57:42.708; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2014-12-09 04:57:43.023; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/
+INFO  - 2014-12-09 04:57:43.023; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2014-12-09 04:57:43.024; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/, dataDir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/
+INFO  - 2014-12-09 04:57:43.030; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2014-12-09 04:57:43.031; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2014-12-09 04:57:43.031; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2014-12-09 04:57:43.050; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data
+INFO  - 2014-12-09 04:57:43.056; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index/
+INFO  - 2014-12-09 04:57:43.059; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index
+INFO  - 2014-12-09 04:57:43.060; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2014-12-09 04:57:43.060; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2014-12-09 04:57:43.060; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2014-12-09 04:57:43.060; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2014-12-09 04:57:43.060; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2014-12-09 04:57:43.073; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2014-12-09 04:57:43.077; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:43.079; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:43.080; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:43.080; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:43.080; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.083; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.083; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2014-12-09 04:57:43.084; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.084; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2014-12-09 04:57:43.084; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:43.084; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2014-12-09 04:57:43.085; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2014-12-09 04:57:43.085; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2014-12-09 04:57:43.085; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:43.085; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:43.086; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:43.090; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2014-12-09 04:57:43.091; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2014-12-09 04:57:43.091; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2014-12-09 04:57:43.091; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2014-12-09 04:57:43.092; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2014-12-09 04:57:43.092; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.092; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.092; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.092; org.apache.solr.core.RequestHandlers; created /suggest: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.092; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.093; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.093; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.093; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.093; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.093; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2014-12-09 04:57:43.094; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:43.094; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:43.103; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:43.104; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:43.116; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2014-12-09 04:57:43.129; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2014-12-09 04:57:43.129; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2014-12-09 04:57:43.134; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2014-12-09 04:57:43.135; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2014-12-09 04:57:43.143; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@41c3d4ea[collection1] main
+INFO  - 2014-12-09 04:57:43.144; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.144; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf}
+INFO  - 2014-12-09 04:57:43.146; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.150; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.151; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2014-12-09 04:57:43.151; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2014-12-09 04:57:43.151; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.154; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.154; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2014-12-09 04:57:43.154; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2014-12-09 04:57:43.159; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2014-12-09 04:57:43.162; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.163; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf
+INFO  - 2014-12-09 04:57:43.163; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2014-12-09 04:57:43.164; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2014-12-09 04:57:43.174; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2014-12-09 04:57:43.183; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2014-12-09 04:57:43.183; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2014-12-09 04:57:43.183; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2014-12-09 04:57:43.184; org.apache.solr.handler.component.SuggestComponent; Initializing SuggestComponent
+INFO  - 2014-12-09 04:57:43.188; org.apache.solr.spelling.suggest.SolrSuggester; init: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2014-12-09 04:57:43.237; org.apache.solr.spelling.suggest.SolrSuggester; Dictionary loaded with params: {name=mySuggester,lookupImpl=FuzzyLookupFactory,dictionaryImpl=DocumentDictionaryFactory,field=cat,weightField=price,suggestAnalyzerFieldType=string}
+INFO  - 2014-12-09 04:57:43.243; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/conf/elevate.xml
+INFO  - 2014-12-09 04:57:43.268; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2014-12-09 04:57:43.268; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@41c3d4ea[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-12-09 04:57:43.419; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2014-12-09 04:57:43.460; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2
+INFO  - 2014-12-09 04:57:43.463; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2014-12-09 04:57:43.484; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false} hits=0 status=0 QTime=214 
+INFO  - 2014-12-09 04:57:43.490; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2014-12-09 04:57:43.491; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2014-12-09 04:57:43.491; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2014-12-09 04:57:43.491; org.apache.solr.handler.component.SuggestComponent$SuggesterListener; Loading suggester index for: mySuggester
+INFO  - 2014-12-09 04:57:43.491; org.apache.solr.spelling.suggest.SolrSuggester; reload()
+INFO  - 2014-12-09 04:57:43.492; org.apache.solr.spelling.suggest.SolrSuggester; build()
+INFO  - 2014-12-09 04:57:43.577; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@41c3d4ea[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2014-12-09 04:57:43.668; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2014-12-09 04:58:42.163; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1418129920696&wt=json} status=0 QTime=3 
+INFO  - 2014-12-09 04:58:42.249; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1418129920753&wt=json} status=0 QTime=33 
+INFO  - 2014-12-09 04:58:48.502; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1418129927038&contentType=text/html;charset%3Dutf-8} status=0 QTime=3 
+INFO  - 2014-12-09 04:58:48.514; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1418129927036&contentType=text/html;charset%3Dutf-8} status=0 QTime=2 
+INFO  - 2014-12-09 04:58:48.563; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/luke params={numTerms=0&_=1418129927083&show=index&wt=json} status=0 QTime=5 
+INFO  - 2014-12-09 04:58:48.568; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1418129927091} status=0 QTime=0 
+INFO  - 2014-12-09 04:58:48.582; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/ping params={action=status&_=1418129927093&wt=json} status=503 QTime=12 
+INFO  - 2014-12-09 04:58:48.585; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/replication params={command=details&_=1418129927086&wt=json} status=0 QTime=23 
+INFO  - 2014-12-09 04:58:48.603; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/system params={_=1418129927088&wt=json} status=0 QTime=42 
+INFO  - 2014-12-09 04:59:42.225; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=0&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=14 
+INFO  - 2014-12-09 04:59:43.245; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 7
+ERROR - 2014-12-09 04:59:43.250; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 04:59:43.267; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=1000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=8 
+INFO  - 2014-12-09 04:59:43.556; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 1
+ERROR - 2014-12-09 04:59:43.556; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 04:59:43.564; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=2000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=4 
+INFO  - 2014-12-09 04:59:43.664; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 04:59:43.665; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 04:59:43.677; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=8 
+INFO  - 2014-12-09 04:59:48.686; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=3 
+INFO  - 2014-12-09 05:04:39.997; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=0&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=21 
+INFO  - 2014-12-09 05:04:40.331; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 05:04:40.332; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:04:40.338; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=1000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:04:40.515; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 1
+ERROR - 2014-12-09 05:04:40.516; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:04:40.521; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=2000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:04:40.618; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 05:04:40.620; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:04:40.625; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:04:45.628; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:05:16.225; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1418130314783&wt=json} status=0 QTime=0 
+INFO  - 2014-12-09 05:05:16.278; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1418130314836&wt=json} status=0 QTime=5 
+INFO  - 2014-12-09 05:05:16.320; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1418130314871&contentType=text/html;charset%3Dutf-8} status=0 QTime=0 
+INFO  - 2014-12-09 05:05:16.320; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1418130314871&contentType=text/html;charset%3Dutf-8} status=0 QTime=7 
+INFO  - 2014-12-09 05:05:16.337; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/luke params={numTerms=0&_=1418130314893&show=index&wt=json} status=0 QTime=1 
+INFO  - 2014-12-09 05:05:16.339; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/replication params={command=details&_=1418130314898&wt=json} status=0 QTime=1 
+INFO  - 2014-12-09 05:05:16.347; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/ping params={action=status&_=1418130314906&wt=json} status=503 QTime=0 
+INFO  - 2014-12-09 05:05:16.345; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1418130314903} status=0 QTime=0 
+INFO  - 2014-12-09 05:05:16.371; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/system params={_=1418130314901&wt=json} status=0 QTime=30 
+INFO  - 2014-12-09 05:05:18.641; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1418130317199} status=0 QTime=1 
+INFO  - 2014-12-09 05:05:18.642; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/ping params={action=status&_=1418130317199&wt=json} status=503 QTime=0 
+INFO  - 2014-12-09 05:05:18.650; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/replication params={command=details&_=1418130317196&wt=json} status=0 QTime=7 
+INFO  - 2014-12-09 05:05:18.652; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/luke params={numTerms=0&_=1418130317194&show=index&wt=json} status=0 QTime=17 
+INFO  - 2014-12-09 05:05:18.668; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/system params={_=1418130317196&wt=json} status=0 QTime=29 
+INFO  - 2014-12-09 05:07:27.883; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/luke params={numTerms=0&_=1418130446446&show=index&wt=json} status=0 QTime=3 
+INFO  - 2014-12-09 05:07:27.901; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/replication params={command=details&_=1418130446449&wt=json} status=0 QTime=3 
+INFO  - 2014-12-09 05:07:27.919; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1418130446459} status=0 QTime=2 
+INFO  - 2014-12-09 05:07:27.926; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/system params={_=1418130446451&wt=json} status=0 QTime=9 
+INFO  - 2014-12-09 05:07:27.932; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/ping params={action=status&_=1418130446459&wt=json} status=503 QTime=0 
+INFO  - 2014-12-09 05:07:31.452; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1418130450019&wt=json} status=0 QTime=0 
+INFO  - 2014-12-09 05:07:31.497; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1418130450061&wt=json} status=0 QTime=4 
+INFO  - 2014-12-09 05:07:31.529; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-bottom.html&_=1418130450094&contentType=text/html;charset%3Dutf-8} status=0 QTime=2 
+INFO  - 2014-12-09 05:07:31.531; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/file/ params={file=admin-extra.menu-top.html&_=1418130450094&contentType=text/html;charset%3Dutf-8} status=0 QTime=1 
+INFO  - 2014-12-09 05:07:31.559; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/ping params={action=status&_=1418130450126&wt=json} status=503 QTime=0 
+INFO  - 2014-12-09 05:07:31.564; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1418130450121} status=0 QTime=1 
+INFO  - 2014-12-09 05:07:31.567; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/luke params={numTerms=0&_=1418130450114&show=index&wt=json} status=0 QTime=19 
+INFO  - 2014-12-09 05:07:31.566; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/replication params={command=details&_=1418130450119&wt=json} status=0 QTime=10 
+INFO  - 2014-12-09 05:07:31.582; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/system params={_=1418130450121&wt=json} status=0 QTime=28 
+INFO  - 2014-12-09 05:40:46.395; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=0&q=*:*&wt=xml&rows=1000} hits=2513 status=0 QTime=7 
+INFO  - 2014-12-09 05:41:23.189; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=0&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:41:23.389; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 1
+ERROR - 2014-12-09 05:41:23.389; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:41:23.395; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=1000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:41:23.547; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 05:41:23.548; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:41:23.553; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=2000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:41:23.637; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 05:41:23.638; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:41:23.645; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=2 
+INFO  - 2014-12-09 05:41:28.649; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=2 
+INFO  - 2014-12-09 05:42:35.635; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=0&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:42:35.787; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 05:42:35.788; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:42:35.790; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 1
+ERROR - 2014-12-09 05:42:35.791; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:42:35.798; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=1000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:42:36.118; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 1
+ERROR - 2014-12-09 05:42:36.118; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:42:36.122; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 0
+ERROR - 2014-12-09 05:42:36.126; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:42:36.136; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=2000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:42:36.215; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 1
+ERROR - 2014-12-09 05:42:36.216; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:42:36.223; org.apache.solr.update.processor.LogUpdateProcessor; [iann] webapp=/solr path=/update/json params={} {} 0 2
+ERROR - 2014-12-09 05:42:36.223; org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [15]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:468)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:410)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:141)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:647)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:42:36.231; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:42:41.237; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={start=3000&q=*:*&wt=json&rows=1000} hits=2513 status=0 QTime=2 
+INFO  - 2014-12-09 05:52:06.313; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/mbeans params={stats=true&_=1418133124974&wt=json} status=0 QTime=58 
+INFO  - 2014-12-09 05:52:09.073; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={indent=true&q=*:*&_=1418133127794&wt=json} hits=2513 status=0 QTime=1 
+INFO  - 2014-12-09 05:52:19.719; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={indent=true&q=*:*&wt=json} hits=2513 status=0 QTime=1 
+ERROR - 2014-12-09 05:52:59.257; org.apache.solr.common.SolrException; java.lang.NumberFormatException: For input string: "9999wt=json"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at org.apache.solr.search.QParser.getSort(QParser.java:245)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:175)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:52:59.261; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={indent=true&q=*:*&rows=9999wt%3Djson} status=500 QTime=5 
+ERROR - 2014-12-09 05:52:59.262; org.apache.solr.common.SolrException; null:java.lang.NumberFormatException: For input string: "9999wt=json"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at org.apache.solr.search.QParser.getSort(QParser.java:245)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:175)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:197)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:942)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1004)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:640)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-09 05:53:14.401; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={indent=true&q=*:*&wt=json&rows=9999} hits=2513 status=0 QTime=1 

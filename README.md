@@ -3,6 +3,11 @@ iann-solr
 Project proposal:
 https://docs.google.com/document/d/1Qw6AKcrZz_0yeH3X17QdR7wpI_QQ3ICighKecCrXydk/edit?usp=sharing
 
+SCRIPT
+------
+- Script name: reindex.php
+- For running script php with curl needed.
+
 Tasks
 -----
 - Get familiar with the current SOLR implementation
