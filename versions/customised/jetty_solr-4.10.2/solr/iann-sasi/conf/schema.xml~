@@ -117,8 +117,8 @@
    <copyField source="subtitle" dest="text"/>
    <copyField source="description" dest="text"/>
    <copyField source="venue" dest="text"/>
-   <copyField source="street_address" dest="text"/>
    <copyField source="city" dest="text"/>
    <copyField source="province" dest="text"/>
    <copyField source="country" dest="text"/>
+   <copyField source="topic" dest="text"/>
 </schema>

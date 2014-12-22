@@ -50,28 +50,39 @@
    <field name="prerequisites" type="text" indexed="false" stored="true"/>
    <field name="programme" type="text" indexed="false" stored="true"/>
    <field name="comments" type="text" indexed="false" stored="true"/>
-   <field name="fees" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="discount" type="text" indexed="false" stored="true"/>
-   <field name="accreditation" type="text" indexed="false" stored="true"/>
-   <field name="status" type="text" indexed="false" stored="true"/>
-   <field name="eligibility" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="capacity" type="string" indexed="false" stored="true"/>
+   <field name="fees" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+   <field name="discount" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="accreditation" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="status" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="eligibility" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+   <field name="capacity" type="long" indexed="false" stored="true"/>
    
-   <field name="contact" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="submitter" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="organizers" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="speakers" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="contact_name" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="contact_email" type="string" indexed="false" stored="true" multiValued="true"/>
+   <field name="submitter_name" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="submitter_email" type="string" indexed="false" stored="true" multiValued="true"/>
+   <field name="submitter_date" type="tdate" indexed="false" stored="true" multiValued="true"/>
+   <field name="submitter_comment" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="submitter_organization" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="organizers_name" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="organizers_email" type="string" indexed="false" stored="true" multiValued="true"/>
+   <field name="speakers_name" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="speakers_email" type="string" indexed="false" stored="true" multiValued="true"/>
    
-   <field name="host_institution" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="sponsor" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="host_institution_name" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+   <field name="host_institution_description" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="host_institution_url" type="string" indexed="false" stored="true" multiValued="true"/>
+   <field name="sponsor_name" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+   <field name="sponsor_description" type="text" indexed="false" stored="true" multiValued="true"/>
+   <field name="sponsor_url" type="string" indexed="false" stored="true" multiValued="true"/>
    
-   <field name="venue" type="text" indexed="false" stored="true"/>
-   <field name="street_address" type="text" indexed="false" stored="true"/>
-   <field name="city" type="text" indexed="false" stored="true"/>
-   <field name="province" type="text" indexed="false" stored="true"/>
-   <field name="country" type="text" indexed="false" stored="true"/>
-   <field name="postcode" type="text" indexed="false" stored="true"/>
-   <field name="post_office_box" type="text" indexed="false" stored="true"/>
+   <field name="venue" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="street_address" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="city" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="province" type="text_lowercase" indexed="false" stored="true"/>
+   <field name="country" type="string" indexed="false" stored="true"/>
+   <field name="postcode" type="string" indexed="false" stored="true"/>
+   <field name="post_office_box" type="string" indexed="false" stored="true"/>
    
    <field name="url" type="string" indexed="false" stored="true"/>
    <field name="attachment" type="string" indexed="false" stored="true" multiValued="true"/>
@@ -79,16 +90,17 @@
    
    <field name="starts" type="tdate" indexed="false" stored="true"/>
    <field name="ends" type="tdate" indexed="false" stored="true"/>
-   <field name="time_zone" type="string" indexed="false" stored="true"/>
+   <field name="time_zone" type="text" indexed="false" stored="true"/>
    <field name="last_update" type="tdate" indexed="false" stored="true" multiValued="true"/>
    <field name="deadlines" type="tdate" indexed="false" stored="true" multiValued="true"/>
    <field name="registration_opens_date" type="tdate" indexed="false" stored="true" multiValued="true"/>
    <field name="acceptance_notification_date" type="tdate" indexed="false" stored="true" multiValued="true"/>
    
-   <field name="type" type="string" indexed="false" stored="true" multiValued="true"/>
-   <field name="topic" type="text" indexed="false" stored="true" multiValued="true"/>
-   <field name="public" type="boolean" indexed="false" stored="true"/>
-   <field name="target_audience" type="string" indexed="false" stored="true" multiValued="true"/>
+   <field name="type" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+   <field name="topic" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+   <field name="keyword" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
+  
+   <field name="target_audience" type="text_lowercase" indexed="false" stored="true" multiValued="true"/>
    <field name="spotlight" type="boolean" indexed="false" stored="true"/>
    
    <field name="latitude" type="double" indexed="true" stored="true"/>
@@ -117,8 +129,8 @@
    <copyField source="subtitle" dest="text"/>
    <copyField source="description" dest="text"/>
    <copyField source="venue" dest="text"/>
-   <copyField source="street_address" dest="text"/>
    <copyField source="city" dest="text"/>
    <copyField source="province" dest="text"/>
    <copyField source="country" dest="text"/>
+   <copyField source="topic" dest="text"/>
 </schema>
