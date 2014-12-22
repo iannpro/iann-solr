@@ -11300,3 +11300,212 @@ INFO  - 2014-12-22 05:20:55.066; org.apache.solr.core.SolrCore; [iann] webapp=/s
 INFO  - 2014-12-22 05:20:55.080; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/replication params={command=details&_=1419254455005&wt=json} status=0 QTime=184 
 INFO  - 2014-12-22 05:20:55.091; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/luke params={numTerms=0&_=1419254454999&show=index&wt=json} status=0 QTime=196 
 INFO  - 2014-12-22 05:20:59.271; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={indent=true&q=*:*&_=1419254459380&wt=json} hits=2520 status=0 QTime=1 
+INFO  - 2014-12-22 12:09:39.570; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1419278980672} status=0 QTime=15 
+INFO  - 2014-12-22 12:09:39.614; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/luke params={numTerms=0&_=1419278980662&show=index&wt=json} status=0 QTime=55 
+INFO  - 2014-12-22 12:09:39.576; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/ping params={action=status&_=1419278980672&wt=json} status=503 QTime=3 
+INFO  - 2014-12-22 12:09:39.633; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/replication params={command=details&_=1419278980667&wt=json} status=0 QTime=82 
+INFO  - 2014-12-22 12:09:39.654; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/system params={_=1419278980670&wt=json} status=0 QTime=96 
+INFO  - 2014-12-22 12:09:44.523; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419278985625&wt=json} hits=14 status=0 QTime=25 
+INFO  - 2014-12-22 12:13:04.641; org.apache.solr.update.processor.LogUpdateProcessor; [collection1] webapp=/solr path=/update params={} {delete=[123 (-1488222090278469632)]} 0 161
+INFO  - 2014-12-22 12:13:09.645; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419279190760&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:13:19.653; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:13:19.724; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+INFO  - 2014-12-22 12:13:19.726; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 4
+INFO  - 2014-12-22 12:13:19.729; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:14:39.975; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={} {delete=[123 (-1488222190276968448)]} 0 9
+INFO  - 2014-12-22 12:14:44.771; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419279285897&wt=json} hits=14 status=0 QTime=2 
+INFO  - 2014-12-22 12:14:45.960; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419279287100&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:14:51.736; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={} {delete=[123 (-1488222202610319360)]} 0 1
+INFO  - 2014-12-22 12:14:54.976; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:14:55.003; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_j,generation=19}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_k,generation=20}
+INFO  - 2014-12-22 12:14:55.003; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 20
+INFO  - 2014-12-22 12:14:55.007; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@5ad3ac27[iann-sasi] realtime
+INFO  - 2014-12-22 12:14:55.009; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:18:03.845; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={} {delete=[123 (-1488222404051206144)]} 0 1
+INFO  - 2014-12-22 12:18:18.845; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:18:18.856; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_k,generation=20}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_l,generation=21}
+INFO  - 2014-12-22 12:18:18.857; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 21
+INFO  - 2014-12-22 12:18:18.866; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:25:53.831; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419279954986&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:25:54.820; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419279955989&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:26:34.210; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/luke params={numTerms=0&_=1419279995357&show=index&wt=json} status=0 QTime=1 
+INFO  - 2014-12-22 12:26:34.224; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/ping params={action=status&_=1419279995370&wt=json} status=503 QTime=0 
+INFO  - 2014-12-22 12:26:34.228; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1419279995367} status=0 QTime=3 
+INFO  - 2014-12-22 12:26:34.232; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/replication params={command=details&_=1419279995362&wt=json} status=0 QTime=15 
+INFO  - 2014-12-22 12:26:34.264; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/system params={_=1419279995365&wt=json} status=0 QTime=38 
+INFO  - 2014-12-22 12:26:38.938; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280000105&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:27:10.176; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3ce72daf[iann-sasi] realtime
+INFO  - 2014-12-22 12:27:10.178; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488222976830603264)} 0 89
+INFO  - 2014-12-22 12:27:22.075; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280043246&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:27:22.925; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280044096&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:27:23.302; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280044476&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:27:23.703; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280044873&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:27:25.178; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:27:25.184; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_l,generation=21}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_m,generation=22}
+INFO  - 2014-12-22 12:27:25.184; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 22
+INFO  - 2014-12-22 12:27:25.195; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:28:39.120; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223070185324544)} 0 2
+INFO  - 2014-12-22 12:28:43.261; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223074527477760)} 0 1
+INFO  - 2014-12-22 12:28:43.855; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223075151380480)} 0 0
+INFO  - 2014-12-22 12:28:44.283; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223075597025280)} 0 3
+INFO  - 2014-12-22 12:28:44.575; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223075906355200)} 0 1
+INFO  - 2014-12-22 12:28:44.872; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223076212539392)} 0 5
+INFO  - 2014-12-22 12:28:45.251; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223076614144000)} 0 1
+INFO  - 2014-12-22 12:28:45.425; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223076797644800)} 0 0
+INFO  - 2014-12-22 12:28:45.607; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223076987437056)} 0 1
+INFO  - 2014-12-22 12:28:45.771; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223077159403520)} 0 1
+INFO  - 2014-12-22 12:28:45.958; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223077355487232)} 0 1
+INFO  - 2014-12-22 12:28:52.078; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={stream.body=<delete><query>*:*</query></delete>} {deleteByQuery=*:* (-1488223083772772352)} 0 4
+INFO  - 2014-12-22 12:28:54.122; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:28:54.123; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-12-22 12:28:54.130; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:32:58.933; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {deleteByQuery=*:* (-1488223342617952256)} 0 3
+INFO  - 2014-12-22 12:33:12.348; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280393536&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:33:13.934; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:33:13.935; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-12-22 12:33:13.944; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:33:38.744; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {deleteByQuery=*:* (-1488223384360714240)} 0 5
+INFO  - 2014-12-22 12:33:46.040; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280427230&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:33:53.745; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:33:53.745; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-12-22 12:33:53.754; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:42:00.523; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {} 0 14
+ERROR - 2014-12-22 12:42:00.527; org.apache.solr.common.SolrException; org.noggit.JSONParser$ParseException: Expected string: char=*,position=13 BEFORE='{"delete": { *' AFTER=':* }}'
+	at org.noggit.JSONParser.err(JSONParser.java:223)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:671)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleDeleteMap(JsonLoader.java:317)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleDeleteCommand(JsonLoader.java:261)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:161)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+ERROR - 2014-12-22 12:42:00.533; org.apache.solr.common.SolrException; null:org.noggit.JSONParser$ParseException: Expected string: char=*,position=13 BEFORE='{"delete": { *' AFTER=':* }}'
+	at org.noggit.JSONParser.err(JSONParser.java:223)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:671)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleDeleteMap(JsonLoader.java:317)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.handleDeleteCommand(JsonLoader.java:261)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:161)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:106)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:68)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:99)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:135)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1967)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:777)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:418)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:207)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+INFO  - 2014-12-22 12:42:13.920; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223924565049344)]} 0 4
+INFO  - 2014-12-22 12:42:14.102; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223924756938752)]} 0 0
+INFO  - 2014-12-22 12:42:22.025; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280943231&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:42:28.921; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:42:28.934; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_m,generation=22}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_n,generation=23}
+INFO  - 2014-12-22 12:42:28.935; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 23
+INFO  - 2014-12-22 12:42:28.936; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:42:42.476; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223954507137024)]} 0 3
+INFO  - 2014-12-22 12:42:43.400; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223955478118400)]} 0 3
+INFO  - 2014-12-22 12:42:43.753; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223955848265728)]} 0 2
+INFO  - 2014-12-22 12:42:44.083; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223956194295808)]} 0 1
+INFO  - 2014-12-22 12:42:44.273; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={wt=json} {delete=[123 (-1488223956393525248)]} 0 1
+INFO  - 2014-12-22 12:42:57.479; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:42:57.485; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_n,generation=23}
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index lockFactory=NativeFSLockFactory@/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_o,generation=24}
+INFO  - 2014-12-22 12:42:57.486; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 24
+INFO  - 2014-12-22 12:42:57.494; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:42:57.526; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419280978738&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:46:07.140; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={} {deleteByQuery=*:* (-1488224169112895488)} 0 3
+INFO  - 2014-12-22 12:46:22.141; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:46:22.141; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-12-22 12:46:22.149; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:46:31.588; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419281192797&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:46:32.552; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419281193772&wt=json} hits=14 status=0 QTime=0 
+INFO  - 2014-12-22 12:46:32.996; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419281194212&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:46:33.446; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419281194667&wt=json} hits=14 status=0 QTime=1 
+INFO  - 2014-12-22 12:47:11.842; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={} {deleteByQuery=*:* (-1488224236957859840)} 0 2
+INFO  - 2014-12-22 12:47:26.844; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:47:26.847; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-12-22 12:47:26.855; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:54:22.313; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={} {deleteByQuery=*:* (-1488224688337321984)} 0 5
+INFO  - 2014-12-22 12:54:22.328; org.apache.solr.update.DirectUpdateHandler2; start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2014-12-22 12:54:22.328; org.apache.solr.update.DirectUpdateHandler2; No uncommitted changes. Skipping IW.commit.
+INFO  - 2014-12-22 12:54:22.330; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@3e071894[iann-sasi] main
+INFO  - 2014-12-22 12:54:22.360; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@3e071894[iann-sasi] main{StandardDirectoryReader(segments_j:64:nrt)}
+INFO  - 2014-12-22 12:54:22.361; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2014-12-22 12:54:22.361; org.apache.solr.core.SolrCore; [iann-sasi] Registered new searcher Searcher@3e071894[iann-sasi] main{StandardDirectoryReader(segments_j:64:nrt)}
+INFO  - 2014-12-22 12:54:22.361; org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2014-12-22 12:54:22.386; org.apache.solr.update.processor.LogUpdateProcessor; [iann-sasi] webapp=/solr path=/update params={commit=true} {commit=} 0 58
+INFO  - 2014-12-22 12:54:49.507; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/select params={indent=true&q=*:*&_=1419281690739&wt=json} hits=0 status=0 QTime=1 
+INFO  - 2014-12-22 12:54:55.225; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/luke params={numTerms=0&_=1419281696446&show=index&wt=json} status=0 QTime=18 
+INFO  - 2014-12-22 12:54:55.234; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/ping params={action=status&_=1419281696456&wt=json} status=503 QTime=1 
+INFO  - 2014-12-22 12:54:55.233; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/file/ params={file=admin-extra.html&_=1419281696453} status=0 QTime=1 
+INFO  - 2014-12-22 12:54:55.241; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/replication params={command=details&_=1419281696448&wt=json} status=0 QTime=15 
+INFO  - 2014-12-22 12:54:55.255; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/admin/system params={_=1419281696451&wt=json} status=0 QTime=28 
+INFO  - 2014-12-22 12:55:02.309; org.apache.solr.core.SolrCore; [iann] webapp=/solr path=/select params={indent=true&q=*:*&_=1419281703530&wt=json} hits=2520 status=0 QTime=8 
