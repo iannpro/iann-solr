@@ -12819,3 +12819,40 @@ INFO  - 2014-12-22 13:59:45.801; org.apache.solr.servlet.SolrDispatchFilter; [ad
 INFO  - 2014-12-22 13:59:45.892; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1419285587254&wt=json} status=0 QTime=43 
 INFO  - 2014-12-22 13:59:45.949; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/luke params={numTerms=0&_=1419285587335&wt=json} status=0 QTime=15 
 INFO  - 2014-12-22 13:59:45.975; org.apache.solr.core.SolrCore; [iann-sasi] webapp=/solr path=/admin/luke params={_=1419285587372&show=schema&wt=json} status=0 QTime=3 
+INFO  - 2014-12-22 15:25:57.451; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2014-12-22 15:25:57.466; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr-webapp/webapp/},/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/webapps/solr.war
+INFO  - 2014-12-22 15:25:58.471; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=778771046
+INFO  - 2014-12-22 15:25:58.474; org.apache.solr.core.SolrCore; [iann]  CLOSING SolrCore org.apache.solr.core.SolrCore@14a2b5f9
+INFO  - 2014-12-22 15:25:58.477; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=4808,transaction_logs_total_number=10}
+INFO  - 2014-12-22 15:25:58.478; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-12-22 15:25:58.487; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-12-22 15:25:58.493; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-12-22 15:25:58.531; org.apache.solr.core.SolrCore; [iann] Closing main searcher on request.
+INFO  - 2014-12-22 15:25:58.538; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-12-22 15:25:58.540; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data;done=false>>]
+INFO  - 2014-12-22 15:25:58.541; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data
+INFO  - 2014-12-22 15:25:58.541; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index;done=false>>]
+INFO  - 2014-12-22 15:25:58.543; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann/data/index
+INFO  - 2014-12-22 15:25:58.544; org.apache.solr.core.SolrCore; [iann-sasi]  CLOSING SolrCore org.apache.solr.core.SolrCore@84239c8
+INFO  - 2014-12-22 15:25:58.545; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=982,transaction_logs_total_number=10}
+INFO  - 2014-12-22 15:25:58.545; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-12-22 15:25:58.546; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-12-22 15:25:58.546; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-12-22 15:25:58.548; org.apache.solr.core.SolrCore; [iann-sasi] Closing main searcher on request.
+INFO  - 2014-12-22 15:25:58.549; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-12-22 15:25:58.549; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data;done=false>>]
+INFO  - 2014-12-22 15:25:58.550; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data
+INFO  - 2014-12-22 15:25:58.550; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index;done=false>>]
+INFO  - 2014-12-22 15:25:58.551; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/iann-sasi/data/index
+INFO  - 2014-12-22 15:25:58.551; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@22514f6d
+INFO  - 2014-12-22 15:25:58.551; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=404,transaction_logs_total_number=3}
+INFO  - 2014-12-22 15:25:58.563; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2014-12-22 15:25:58.563; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2014-12-22 15:25:58.563; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2014-12-22 15:25:58.573; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2014-12-22 15:25:58.578; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2014-12-22 15:25:58.579; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index;done=false>>]
+INFO  - 2014-12-22 15:25:58.579; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data/index
+INFO  - 2014-12-22 15:25:58.581; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data [CachedDir<<refCount=0;path=/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data;done=false>>]
+INFO  - 2014-12-22 15:25:58.589; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr/collection1/data
+INFO  - 2014-12-22 15:25:58.594; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/solr-webapp/webapp/},/home/irman/iann-solr/versions/customised/jetty_solr-4.10.2/webapps/solr.war
